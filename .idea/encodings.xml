@@ -5,7 +5,14 @@
     <file url="file://$PROJECT_DIR$/M321 - Verteilte Systeme programmieren/13_API-Gateway/java-microservices-examples/spring-boot+cloud/car-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M321 - Verteilte Systeme programmieren/13_API-Gateway/java-microservices-examples/spring-boot+cloud/discovery-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/cart-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/product-catalog-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/product-catalog-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

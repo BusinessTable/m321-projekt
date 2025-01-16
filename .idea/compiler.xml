@@ -22,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="" />
       <module name="car-service" options="-parameters" />
+      <module name="cart-service" options="" />
       <module name="discovery-service" options="-parameters" />
       <module name="eureka-server" options="" />
       <module name="product-catalog-service" options="" />

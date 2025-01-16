@@ -24,7 +24,7 @@ public class ProductController {
 
     // GET - Produkt nach ID anzeigen
     @GetMapping("/{id}")
-    public Product getProductById(@PathVariable Long id) {
+    public Product getProductById(@PathVariable("id") Long id) {
         return productService.getProductById(id);
     }
 
@@ -36,7 +36,7 @@ public class ProductController {
 
     // PUT - Produkt aktualisieren
     @PutMapping("/{id}")
-    public Product updateProduct(@PathVariable Long id, @RequestBody Product productDetails) {
+    public Product updateProduct(@PathVariable("id") Long id, @RequestBody Product productDetails) {
         Product product = productService.getProductById(id);
         if (product != null) {
             product.setName(productDetails.getName());
@@ -50,7 +50,7 @@ public class ProductController {
 
     // DELETE - Produkt löschen
     @DeleteMapping("/{id}")
-    public void deleteProduct(@PathVariable Long id) {
+    public void deleteProduct(@PathVariable("id") Long id) {
         productService.deleteProduct(id);
     }
 }
