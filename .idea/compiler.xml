@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="cart-service" />
+        <module name="order-service" />
         <module name="product-catalog-service" />
         <module name="eureka-server" />
       </profile>
