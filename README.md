@@ -173,6 +173,94 @@ Hier ist eine ausgefüllte Reflexion basierend auf dem ersten Termin und der Arb
 
 ### **4. Ausblick auf den nächsten Termin**
 - Nächstes Mal müssen wir mit dem Produktkatalog-Service fertig werden und mit dem Warenkorb-Service anfangen.
-- 
 
+# Persönliche Reflexion
+
+## Einleitung
+
+- **Datum:**
+
+16.01.2025
+
+- **Projektname:**
+
+M321 - Shopping App Microservices
+
+## Ziele
+
+- **Was waren die Hauptziele des Projekts?**
+
+1. Drei Mirco services sind erstellt
+    - Produktkatalog-Service
+    - Warenkorb-Service
+    - Bestellungs-Service
+
+2. API Gateway
+3. Eureka Discovery Service
+4. Frontend mit CRUD Operationen
+5. Microservices sind in Docker-Container verpackt
+6. Microservices kommunizieren via REST API miteiannder
+7. Apache Kafka Messaging für Logging von Fehlern, Warning und Infos über User-Aktionen
+8. User Login mit Session Token
+9. API Gateway beschränken auf angemeldete User
+10. Alle Services haben eine eigene Datenbank für Caching von Daten
+    - Warenkorb-Service         - Redis
+    - Produktkatalog-Service    - Spring Datenbank
+    - Bestellungs-Service       - Spring Datenbank
+
+## Erfolge
+
+- **Welche Ziele wurden realisiert?**
+
+1. Drei Mirco services sind erstellt
+    - Produktkatalog-Service
+    - Warenkorb-Service
+    - Bestellungs-Service
+
+2. API Gateway
+3. Eureka Discovery Service
+4. Frontend mit CRUD Operationen
+5. Microservices kommunizieren via REST API miteiannder
+
+- **Welche Punkt sind noch offen?**
+
+1. Microservices sind in Docker-Container verpackt
+2. Apache Kafka Messaging für Logging
+
+## Herausforderungen
+
+- **Welche Herausforderungen sind aufgetreten?**
+
+Kafka war eher kompliziert einzurichten, dazu sahen wir den Nutzen nicht wirklich, da das logging auch anders viel einfacher umzusetzen wäre.
+
+Die MIcro Services zu dockerisieren wäre nicht allzu schwer gewesen, jedoch haben wir uns entschieden, dass es nicht nötig ist, da wir acuh kafka nicht implementiert haben und wir dadurch keinen Grund hatten.
+
+## Erkenntnisse
+
+- **Was wurde aus dem Projekt gelernt?**
+
+Uns wurde erst jetzt klar, wie spannend der Eureka Discovery Service eigentlich ist.
+Dazu war es interessant zu sehen wie anders so ein Programm bestehend aus Microservices aufgebaut ist.
+Vor allem mit dem Kontrast zum anderen Projekt.
+
+- **Welche neuen Fähigkeiten oder Kenntnisse wurden erworben?**
+
+Wir konnten unser bestehendes Wissen mit Microservices vertiefen und haben auch einiges über den Eureka Discovery Service gelernt.
+So ganze Projekte von null auf hundert zu erarbeiten mit Datenbank und allen drum und dran war eine Gute erfahrung, die wir bis jetzt im Schulplan vermissten.
+
+## Verbesserungsmöglichkeiten
+
+- **Was könnte in zukünftigen Projekten verbessert werden?**
+
+Wir müssen unbedingt verbesserungen in den Bereichen Dokumentation und Planung machen, wie kamen ein wenig in den Stress, da wir uns noch nie so intensiv mit Microservices auseinander gesetzt haben und dazu viel zu wenig geplant hatten im Voraus.
+
+- **Welche Strategien könnten implementiert werden, um ähnliche Herausforderungen zu vermeiden?**
+
+EIne Strukturierte Planung und Dokumentation ist das A und O, das haben wir in diesem Projekt gelernt.
+
+## Fazit
+
+Wir sind stoltz auf unsere Arbeit und denken sie zeigt was wir können, jedoch gibt es noch viel zu lernen und zu verbessern. (Siehe Welche Punkt sind noch offen?)
+
+Dovalo / Aroldi
 
